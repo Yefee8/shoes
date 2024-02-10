@@ -67,7 +67,7 @@ export default function CardPart() {
         </div>
       </div>
 
-      <div className="md:w-[489px] shadow-xl hover:shadow-2xl duration-150 bg-background w-72 flex flex-col md:gap-8 gap-12 border-black/30 rounded-2xl border px-6 md:px-12 py-6">
+      <div className="md:w-[489px] shadow-lg hover:shadow-xl hover:shadow-primary/30 shadow-primary/25 duration-150 bg-background w-72 flex flex-col md:gap-8 gap-12 border-black/30 rounded-2xl border px-6 md:px-12 py-6">
         <div className="md:h-[180px]">
           <div className="flex group relative justify-center">
             <img
