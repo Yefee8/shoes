@@ -2,6 +2,8 @@ import { Montserrat } from "next/font/google";
 import CardPart from "@/components/CardPart";
 import Enjoy from "@/components/Enjoy";
 import SeeMore from "@/components/SeeMore";
+import RecommendedProducts from "@/components/RecommendedProducts";
+import BeAnFranchise from "@/components/BeAnFranchise";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export default function Home() {
@@ -23,6 +25,10 @@ export default function Home() {
       </div>
 
       <Enjoy />
+
+      <RecommendedProducts />
+
+      <BeAnFranchise />
     </div>
   );
 }

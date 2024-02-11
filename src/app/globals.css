@@ -27,6 +27,22 @@ body {
   z-index: -1;
 }
 
+.glitch-v3:before {
+  position: absolute;
+  content: "recommendations";
+  color: #7743db;
+  transform: translate(2px, 2px);
+  z-index: -1;
+}
+
+.glitch-v4:before {
+  position: absolute;
+  content: "franchise";
+  color: #7743db;
+  transform: translate(2px, 2px);
+  z-index: -1;
+}
+
 img {
   user-select: none;
   -webkit-user-drag: none;
