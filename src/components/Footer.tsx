@@ -26,7 +26,7 @@ export default function Footer() {
         </Link>
       </div>
 
-      <div className="flex flex-col gap-2 w-full items-center">
+      <div className="flex md:flex-row flex-col gap-2 w-full items-center">
         <h1 className="text-lg font-medium">
             Development Story
         </h1>
