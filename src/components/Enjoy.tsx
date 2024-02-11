@@ -12,13 +12,39 @@ export default function Enjoy() {
 
   const carousel = [
     {
-      title:"",
-      price: ""
-    }
-  ]
+      title: "Nike Shoe",
+      price: "300.00",
+      image:
+        "https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png",
+    },
+    {
+      title: "Adidas Shoe",
+      price: "275.00",
+      image: "https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Picture.png",
+    },
+    {
+      title: "Adidas Shoe",
+      price: "250.00",
+      image: "https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Image.png",
+    },
+    {
+      title: "Nike Shoe",
+      price: "350.00",
+      image: "https://www.pngmart.com/files/6/Shoe-PNG-Free-Download.png",
+    },
+    {
+      title: "Nike Shoe",
+      price: "300.00",
+      image:
+        "https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png",
+    },
+  ];
 
   return (
-    <div id="enjoy" className="w-full flex items-center flex-col gap-8 justify-center mt-16">
+    <div
+      id="enjoy"
+      className="w-full flex items-center flex-col gap-8 justify-center mt-16"
+    >
       <h1
         className={
           montserrat.className +
@@ -86,37 +112,15 @@ export default function Enjoy() {
           ref={scrollRef}
           className="overflow-x-auto scroll-smooth no-scrollbar min-w-[300px] max-w-[calc(100%-48px)]  md:max-w-[calc(100%-64px]"
         >
-            <div className="min-w-screen pb-4 flex gap-4">
-              <Card
-                title="Nike Shoe"
-                price="300.00"
-                image="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
-              />
-
-              <Card
-                title="Adidas Shoe"
-                price="275.00"
-                image="https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Picture.png"
-              />
-
-              <Card
-                title="Adidas Shoe"
-                price="275.00"
-                image="https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Image.png"
-              />
-
-              <Card
-                title="Nike Shoe"
-                price="275.00"
-                image="https://www.pngmart.com/files/6/Shoe-PNG-Free-Download.png"
-              />
-
-              <Card
-                title="Adidas Shoe"
-                price="275.00"
-                image="https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Picture.png"
-              />
-            </div>
+          <div className="min-w-screen pb-4 flex gap-4">
+            {carousel.map((properties) => {
+              return (
+                <Card
+                  {...properties}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

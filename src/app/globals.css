@@ -15,7 +15,7 @@ body {
   position: absolute;
   content: "shoes";
   color: #7743db;
-  transform: translate(4px, 4px);
+  transform: translate(2.3px, 2.3px);
   z-index: -1;
 }
 
@@ -30,14 +30,6 @@ body {
 img {
   user-select: none;
   -webkit-user-drag: none;
-}
-
-.infinite-scroll::before {
-  position: absolute;
-  content: "-";
-  color: #7743db;
-  transform: translate(4px, 4px);
-  z-index: -1;
 }
 
 .no-scrollbar::-webkit-scrollbar {

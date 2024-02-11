@@ -39,25 +39,25 @@ export default function CardPart() {
         <div className="md:h-[180px]">
           <div className="flex group relative justify-center">
             <img
-              src="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
+              src="https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Image.png"
               className="w-2/3 group-hover:translate-x-0 group-hover:rotate-0 -translate-x-4 absolute hover:rotate-0 rotate-[-30deg] duration-200"
             />
 
             <img
-              src="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
+              src="https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Image.png"
               className="w-2/3 group-hover:rotate-0 rotate-[-30deg] duration-200"
             />
 
             <img
-              src="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
+              src="https://www.pngmart.com/files/21/Adidas-Shoes-PNG-Image.png"
               className="w-2/3 group-hover:translate-x-0 group-hover:rotate-0 translate-x-4 absolute hover:rotate-0 rotate-[-30deg] duration-200"
             />
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <h2 className="font-bold text-xl">Nike Shoe</h2>
+          <h2 className="font-bold text-xl">Adidas Shoe</h2>
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold">$300.00</h1>
+            <h1 className="text-2xl font-bold">$250.00</h1>
 
             <button className="hover:bg-primary border border-primary text-primary hover:text-background p-2 rounded-xl text-base font-medium duration-150 flex gap-2 items-center">
               <FaShoppingCart className="text-xl" />
@@ -71,17 +71,17 @@ export default function CardPart() {
         <div className="md:h-[180px]">
           <div className="flex group relative justify-center">
             <img
-              src="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
+              src="https://www.pngmart.com/files/6/Shoe-PNG-Free-Download.png"
               className="w-2/3 group-hover:translate-x-0 group-hover:rotate-0 -translate-x-4 absolute hover:rotate-0 rotate-[-30deg] duration-200"
             />
 
             <img
-              src="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
+              src="https://www.pngmart.com/files/6/Shoe-PNG-Free-Download.png"
               className="w-2/3 group-hover:rotate-0 rotate-[-30deg] duration-200"
             />
 
             <img
-              src="https://freepngimg.com/thumb/shoes/26263-3-nike-shoes-transparent-image.png"
+              src="https://www.pngmart.com/files/6/Shoe-PNG-Free-Download.png"
               className="w-2/3 group-hover:translate-x-0 group-hover:rotate-0 translate-x-4 absolute hover:rotate-0 rotate-[-30deg] duration-200"
             />
           </div>
@@ -89,7 +89,7 @@ export default function CardPart() {
         <div className="flex flex-col gap-3">
           <h2 className="font-bold text-xl">Nike Shoe</h2>
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold">$300.00</h1>
+            <h1 className="text-2xl font-bold">$350.00</h1>
 
             <button className="hover:bg-primary border border-primary text-primary hover:text-background p-2 rounded-xl text-base font-medium duration-150 flex gap-2 items-center">
               <FaShoppingCart className="text-xl" />
