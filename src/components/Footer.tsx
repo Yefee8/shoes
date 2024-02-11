@@ -4,7 +4,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Footer() {
   return (
-    <footer className="w-full px-16 md:flex-row flex-col border-t flex-wrap border-t-black/20 min-h-40 md:py-0 py-4 flex justify-center gap-24 md:justify-start items-center">
+    <footer className="w-full px-16 border-t md:flex-row flex-col border-t-black/20 min-h-40 md:py-0 py-4 flex justify-center gap-24 md:justify-start items-center">
       <h1
         className={
           montserrat.className +
@@ -26,7 +26,7 @@ export default function Footer() {
         </Link>
       </div>
 
-      <div className="flex md:flex-row flex-col gap-2 w-full items-center">
+      <div className="flex flex-col gap-2 w-full items-center">
         <h1 className="text-lg font-medium">
             Development Story
         </h1>
