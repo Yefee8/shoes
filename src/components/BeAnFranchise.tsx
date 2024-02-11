@@ -7,10 +7,10 @@ export default function BeAnFranchise() {
     <div className="flex relative lg:flex-row flex-col mt-16 rounded-2xl gap-0 items-center lg:items-start">
       <img
         src="https://media.blogto.com/articles/20180423-MECQueen4.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
-        className="lg:w-1/2 min-w-[288px] w-full lg:rounded-r-none rounded-2xl rounded-l-2xl"
+        className="lg:w-1/2 shadow-lg min-w-[288px] w-full lg:rounded-r-none rounded-2xl rounded-l-2xl"
       />
       <div
-        className="lg:w-1/2 min-w-[288px] justify-between lg:absolute lg:right-0 h-full w-full bg-primary/60 mt-4 lg:mt-0 rounded-r-2xl 
+        className="lg:w-1/2 min-w-[288px] justify-between lg:absolute lg:right-0 h-full w-full bg-white/40 shadow-lg mt-4 lg:mt-0 rounded-r-2xl 
       rounded-2xl lg:rounded-l-none flex flex-col gap-4 px-6 p-6 lg:px-8"
       >
         <div className="flex flex-col gap-4">
@@ -32,25 +32,25 @@ export default function BeAnFranchise() {
           <input
             type="name"
             placeholder="name"
-            className="outline-primary bg-background/90 focus:bg-background duration-100 placeholder:text-black text-black py-2 lg:w-1/2 max-w-[346px] w-full rounded-lg border px-4 text-lg 
+            className="outline-primary bg-background duration-100 placeholder:text-black text-black py-2 lg:w-1/2 max-w-[346px] w-full rounded-lg border px-4 text-lg 
             font-medium border-primary"
           />
 
           <input
             type="address"
             placeholder="address"
-            className="outline-primary bg-background/90 focus:bg-background duration-100 placeholder:text-black text-black py-2 lg:w-1/2 max-w-[346px] w-full rounded-lg border px-4 text-lg 
+            className="outline-primary bg-background duration-100 placeholder:text-black text-black py-2 lg:w-1/2 max-w-[346px] w-full rounded-lg border px-4 text-lg 
             font-medium border-primary"
           />
 
           <input
             type="email"
             placeholder="email"
-            className="outline-primary bg-background/90 focus:bg-background duration-100 placeholder:text-black text-black py-2 lg:w-1/2 max-w-[346px] w-full rounded-lg border px-4 text-lg 
+            className="outline-primary bg-background duration-100 placeholder:text-black text-black py-2 lg:w-1/2 max-w-[346px] w-full rounded-lg border px-4 text-lg 
             font-medium border-primary"
           />
         </div>
-        <button className="px-4 py-2 font-bold text-base rounded-lg bg-background/90 hover:bg-background focus:bg-background duration-100 text-primary w-full lg:w-1/2 max-w-[346px]">
+        <button className="px-4 py-2 font-bold text-base rounded-lg bg-primary text-white w-full lg:w-1/2 max-w-[346px]">
           send it
         </button>
       </div>
