@@ -18,7 +18,7 @@ export default function Enjoy() {
   ]
 
   return (
-    <div className="w-full flex items-center flex-col gap-8 justify-center mt-16">
+    <div id="enjoy" className="w-full flex items-center flex-col gap-8 justify-center mt-16">
       <h1
         className={
           montserrat.className +

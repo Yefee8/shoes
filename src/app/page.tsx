@@ -1,9 +1,7 @@
 import { Montserrat } from "next/font/google";
 import CardPart from "@/components/CardPart";
-import { FaArrowCircleDown } from "react-icons/fa";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import Card from "@/components/Card";
 import Enjoy from "@/components/Enjoy";
+import SeeMore from "@/components/SeeMore";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 export default function Home() {
@@ -21,9 +19,7 @@ export default function Home() {
 
         <CardPart />
 
-        <div className="absolute top-[90vh] md:flex hidden gap-2 items-center font-bold text-xl">
-          See More <FaArrowCircleDown className="text-2xl" />
-        </div>
+        <SeeMore />
       </div>
 
       <Enjoy />
