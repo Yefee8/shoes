@@ -71,7 +71,7 @@ export default function Enjoy() {
               }, 300);
             }
           }}
-          className="absolute duration-100 text-background flex justify-center items-center left-0 w-10 h-10 rounded-xl cursor-pointer
+          className="absolute duration-100 text-background flex justify-center items-center left-0 md:top-auto top-[25%] z-50 w-10 h-10 rounded-xl cursor-pointer
            bg-primary disabled:opacity-50 disabled:bg-gray-500"
           disabled={scrollCount - 30 < 0 ? true : false}
         >
@@ -102,7 +102,7 @@ export default function Enjoy() {
                 scrollRef.current.scrollWidth
               : false
           }
-          className="absolute duration-100 right-0 text-background flex justify-center items-center w-10 h-10 rounded-xl cursor-pointer
+          className="absolute duration-100 right-0 text-background flex justify-center items-center md:top-auto top-[25%] z-50 w-10 h-10 rounded-xl cursor-pointer
            bg-primary disabled:opacity-50 disabled:bg-gray-500"
         >
           <IoIosArrowForward className="text-xl" />
