@@ -22,7 +22,7 @@ export default function CardPart() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-3">
           <h2 className="font-bold text-xl">Nike Shoe</h2>
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold">$300.00</h1>
@@ -54,12 +54,12 @@ export default function CardPart() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-3">
           <h2 className="font-bold text-xl">Nike Shoe</h2>
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold">$300.00</h1>
 
-            <button className="hover:bg-primary border border-primary text-primary hover:text-background p-2 rounded-xl text-base font-medium duration-150 flex gap-1 items-center">
+            <button className="hover:bg-primary border border-primary text-primary hover:text-background p-2 rounded-xl text-base font-medium duration-150 flex gap-2 items-center">
               <FaShoppingCart className="text-xl" />
               Buy
             </button>
@@ -86,12 +86,12 @@ export default function CardPart() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-3">
           <h2 className="font-bold text-xl">Nike Shoe</h2>
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold">$300.00</h1>
 
-            <button className="hover:bg-primary border border-primary text-primary hover:text-background p-2 rounded-xl text-base font-medium duration-150 flex gap-1 items-center">
+            <button className="hover:bg-primary border border-primary text-primary hover:text-background p-2 rounded-xl text-base font-medium duration-150 flex gap-2 items-center">
               <FaShoppingCart className="text-xl" />
               Buy
             </button>

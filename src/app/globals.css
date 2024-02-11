@@ -15,6 +15,14 @@ body {
   z-index: -1;
 }
 
+.glitch-v2:before {
+  position: absolute;
+  content: "bests";
+  color: #7743db;
+  transform: translate(2px, 2px);
+  z-index: -1;
+}
+
 img {
   user-select: none;
   -webkit-user-drag: none;
@@ -26,4 +34,12 @@ img {
   color: #7743db;
   transform: translate(4px, 4px);
   z-index: -1;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
