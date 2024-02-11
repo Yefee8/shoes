@@ -50,7 +50,7 @@ export default function BeAnFranchise() {
             font-medium border-primary"
           />
         </div>
-        <button className="px-4 py-2 font-bold text-base rounded-lg bg-primary text-white w-full lg:w-1/2 max-w-[346px]">
+        <button className="px-4 py-2 font-medium text-base rounded-lg bg-primary text-white w-full lg:w-1/2 max-w-[346px]">
           send it
         </button>
       </div>
