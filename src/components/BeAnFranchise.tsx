@@ -6,8 +6,8 @@ export default function BeAnFranchise() {
   return (
     <div className="flex relative lg:flex-row flex-col mt-16 rounded-2xl gap-0 items-center lg:items-start">
       <img
-        src="https://media.blogto.com/articles/20180423-MECQueen4.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
-        className="lg:w-1/2 shadow-lg min-w-[288px] w-full lg:rounded-r-none rounded-2xl rounded-l-2xl"
+        src="https://images.pexels.com/photos/2908975/pexels-photo-2908975.jpeg?cs=srgb&dl=pexels-technobulka-2908975.jpg&fm=jpg"
+        className="lg:w-1/2 shadow-lg min-w-[288px] w-full lg:rounded-r-none rounded-2xl rounded-l-2xl bg-center bg-no-repeat"
       />
       <div
         className="lg:w-1/2 min-w-[288px] justify-between lg:absolute lg:right-0 h-full w-full bg-white/40 shadow-lg mt-4 lg:mt-0 rounded-r-2xl 
